@@ -267,7 +267,7 @@ def authenticate(private_key, wallet_index, proxy=None):
         "address": wallet_address,
         "token": message,
         "signature": signature,
-        "inviter":"ZF2_cLsZuRf5q5X"
+        "inviter":"ZF2-cLsZuRf5q5X"
     }
     
     login_url = f"{BASE_URL}/user-auth/login"
